@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqQueryHelper", "LinqQueryHelper\LinqQueryHelper.csproj", "{630BFFB6-9611-4BDB-AD6F-B12C5073A3CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".build", ".build", "{73E3B1C5-FE3D-4C07-A65A-C3E83AC0590B}"
+	ProjectSection(SolutionItems) = preProject
+		Build.proj = Build.proj
+		.build\MSBuild.Community.Tasks.dll = .build\MSBuild.Community.Tasks.dll
+		.build\MSBuild.Community.Tasks.targets = .build\MSBuild.Community.Tasks.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{630BFFB6-9611-4BDB-AD6F-B12C5073A3CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{630BFFB6-9611-4BDB-AD6F-B12C5073A3CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{630BFFB6-9611-4BDB-AD6F-B12C5073A3CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{630BFFB6-9611-4BDB-AD6F-B12C5073A3CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
